@@ -1,5 +1,5 @@
-import createApp from "./app";
-import { setupPrismaShutdownHooks } from "./prisma";
+import createApp from "./app.ts";
+import { setupPrismaShutdownHooks } from "./prisma.ts";
 
 const app = createApp();
 const PORT = Number(process.env.PORT) || 3001;
